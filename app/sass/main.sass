@@ -29,7 +29,83 @@ body
 	 
 	
 .wrapper
-	width: 1140px
-	height: 100% 
+	width: 100%
+	min-height: 100%
+	position: relative
+	overflow: hidden
 	text-align: center
-	margin: 0 auto
+	
+// START HEADER
+.header
+	width: 100%
+	min-height: 100vh
+	position: relative
+	background: url('../img/header.png') center center no-repeat
+	-webkit-background-size: cover 
+	  -o-background-size: cover 
+	  background-size: cover
+	
+	&__title
+		font-family: "exoThin", sans-serif
+		font-size: 60px
+		font-weight: 200
+		
+	&__video
+		width: 60px
+		height: 60px
+		-webkit-border-radius: 50% 
+		border-radius: 50% 
+		background-color: $dark-grey
+		margin: 0 auto
+		position: relative
+		margin-bottom: 38px
+		 
+		&:after
+			content: ""
+			position: absolute
+			left: 23px
+			bottom: 18px
+			border: 12px solid transparent
+			border-left: 20px solid white
+			
+		&:hover
+			background-color: darken($dark-grey, 10%)  
+		
+	&__info
+		font-family: "exoRegular", sans-serif
+		font-size: 14px
+		margin-top: 18px 
+		
+.header-wrap
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	
+	width: 750px
+	height: 380px
+	margin: auto
+	
+		 
+
+// END HEADER
+
+// BUTTONS
+.btn
+	display: inline-block
+	min-width: 190px
+	font-size: 16px
+	padding: 15px 50px 
+	-webkit-border-radius: 3px 
+	border-radius: 3px 
+	background-color: $pink
+	color: $main
+	font-family: "exoRegular", sans-serif
+	text-transform: uppercase
+	letter-spacing: 0.3em
+	
+	&:hover
+		background-color: darken($pink, 10%)  
+
+
