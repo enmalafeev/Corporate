@@ -14,12 +14,18 @@ html
 *::after
 	-webkit-box-sizing: inherit 
 	-moz-box-sizing: inherit 
-	box-sizing: inherit 
+	box-sizing: inherit
+	
+h2, h3, h4, h5, h6
+	margin: 0
+	padding: 0
 	
 a
 	text-decoration: none
 	
 ul
+	padding: 0
+	margin: 0
 	li
 		list-style: none 
 	
@@ -29,11 +35,15 @@ body
 	 
 	
 .wrapper
-	width: 100%
+	width: 1440px
 	min-height: 100%
 	position: relative
 	overflow: hidden
 	text-align: center
+	margin: 0 auto
+	
+.tal
+	text-align: left
 	
 // START HEADER
 .header
@@ -108,4 +118,80 @@ body
 	&:hover
 		background-color: darken($pink, 10%)  
 
+
+// END BUTTONS
+
+.dots
+	width: 30px
+	
+	ul
+		width: 30px
+		li
+			display: inline-block
+			width: 4px
+			height: 4px
+			background-color: $pink
+
+
+// SECTIONS
+.section
+	width: 1440px
+	font-size: 0
+	&:nth-child(odd)
+		background-color: $light-grey
+		
+	&__feat
+		text-transform: uppercase
+		color: $pink
+		letter-spacing: 0.2em
+		margin-bottom: 15px
+		
+	&__title
+		font-family: "exoMedium", sans-serif
+		font-size: 40px
+		font-weight: 100
+		margin-bottom: 35px
+	
+	&__par
+		line-height: 1.6
+			
+	
+.section-left
+	display: inline-block
+	width: 870px
+	min-height: 725px
+	font-size: 16px
+	position: relative
+
+.section-wrap
+	width: 580px
+	height: 380px
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto 
+
+.section-right
+	display: inline-block
+	width: 570px
+	min-height: 725px
+	
+	background-color: $grey
+	position: relative
+	
+	
+	&:after
+		content: ''
+		position: absolute
+		right: 0
+		bottom: 0
+		border: 285px solid transparent
+		border-right: 285px solid $pink
+		border-bottom: 285px solid $pink   
+	
+
+	
+// END SECTIONS
 
