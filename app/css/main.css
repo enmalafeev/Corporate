@@ -617,6 +617,9 @@ body {
 .img3 {
   background: url("../img/bulb.png") center no-repeat; }
 
+.third {
+  min-height: 550px; }
+
 .third-left {
   width: 50%;
   min-height: 550px;
@@ -640,3 +643,80 @@ body {
 
 .third-wrap {
   width: 500px; }
+
+.review {
+  width: 1440px;
+  height: 650px;
+  background: url("../img/Group4.png") center no-repeat; }
+
+.review-wrap {
+  width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+    -webkit-flex-wrap--ms-flex-wrap: wrap;
+    -webkit-flex-wrap-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+    -webkit-justify-content-justify-content: space-around; }
+
+.review-col {
+  width: 33.33%;
+  padding-top: 110px; }
+  .review-col__img {
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+    background-color: #4e4e5e;
+    background: url("../img/face.jpeg") center no-repeat;
+    -webkit-background-size: cover;
+      -webkit-background-size--o-background-size: cover;
+      -webkit-background-size-background-size: cover;
+    margin-bottom: 25px; }
+  .review-col__name {
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 10px; }
+  .review-col__subname {
+    display: block;
+    color: #ff6d6d; }
+  .review-col__par {
+    width: 360px;
+    font-family: "exoItalic", sans-serif;
+    color: #a8a9ac;
+    margin-bottom: 100px; }
+
+.logos {
+  width: 975px;
+  height: 85px; }
+  .logos ul li {
+    display: inline-block;
+    width: 120px;
+    height: 85px;
+    margin-right: 70px; }
+
+.logo__img1 {
+  background-image: url("../img/Logos.png");
+  background-position: 0; }
+
+.logo__img2 {
+  background-image: url("../img/Logos.png");
+  background-position: 745px; }
+
+.logo__img3 {
+  background-image: url("../img/Logos.png");
+  background-position: 530px; }
+
+.logo__img4 {
+  background-image: url("../img/Logos.png");
+  background-position: 320px 0; }
+
+.logo__img5 {
+  background-image: url("../img/Logos.png");
+  background-position: 120px; }
