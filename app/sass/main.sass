@@ -45,6 +45,9 @@ body
 .tal
 	text-align: left
 	
+.pt
+	padding-top: 135px 
+	
 // START HEADER
 .header
 	width: 100%
@@ -134,9 +137,12 @@ body
 
 
 // SECTIONS
+.first
+	min-height: 725px
+
 .section
 	width: 1440px
-	font-size: 0
+
 	&:nth-child(odd)
 		background-color: $light-grey
 		
@@ -162,6 +168,7 @@ body
 	min-height: 725px
 	font-size: 16px
 	position: relative
+	float: left
 
 .section-wrap
 	width: 580px
@@ -177,6 +184,7 @@ body
 	display: inline-block
 	width: 570px
 	min-height: 725px
+	float: right
 	
 	background-color: $grey
 	position: relative
@@ -192,6 +200,46 @@ body
 		border-bottom: 285px solid $pink   
 	
 
+.feature
+	min-height: 655px
+	background: url('../img/bg_feat.png') center no-repeat 
 	
+.features-wrap
+	width: 1140px
+	margin: 0 auto
+	display: flex
+	-webkit-flex-direction: row 
+	-ms-flex-direction: row 
+	flex-direction: row
+	-webkit-flex-wrap: nowrap 
+	 -ms-flex-wrap: nowrap 
+	 flex-wrap: nowrap
+	-webkit-justify-content: space-between 
+	  justify-content: space-between   
+	
+.feature-col
+	width: 33.33%
+	
+	
+	&__img
+		width: 66px
+		height: 66px
+		-webkit-border-radius: 50% 
+		border-radius: 50%
+		background-color: $main
+		margin: 0 auto
+		margin-bottom: 30px
+		
+	&__par
+		width: 360px
+	
+.img1
+	background: url('../img/picture.png') center no-repeat
+
+.img2
+	background: url('../img/airplane.png') center no-repeat 
+
+.img3
+	background: url('../img/bulb.png') center no-repeat 
 // END SECTIONS
 
