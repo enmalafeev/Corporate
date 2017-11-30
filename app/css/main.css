@@ -573,8 +573,8 @@ body {
     right: 0;
     bottom: 0;
     border: 285px solid transparent;
-    border-right: 285px solid #ff6d6d;
-    border-bottom: 285px solid #ff6d6d; }
+    border-right: 285px solid #fb8686;
+    border-bottom: 285px solid #fb8686; }
 
 .feature {
   min-height: 655px;
@@ -616,3 +616,27 @@ body {
 
 .img3 {
   background: url("../img/bulb.png") center no-repeat; }
+
+.third-left {
+  width: 50%;
+  min-height: 550px;
+  position: relative;
+  background: url("../img/macbook.png") center no-repeat;
+  float: left; }
+  .third-left:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 285px solid transparent;
+    border-left: 305px solid #fb8686;
+    border-bottom: 305px solid #fb8686;
+    z-index: -1; }
+
+.third-right {
+  width: 50%;
+  min-height: 550px;
+  float: right; }
+
+.third-wrap {
+  width: 500px; }
