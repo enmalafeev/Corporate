@@ -454,6 +454,9 @@ body {
 .pt {
   padding-top: 135px; }
 
+.white {
+  color: #ffffff; }
+
 .header {
   width: 100%;
   min-height: 100vh;
@@ -731,3 +734,24 @@ body {
   height: 365px;
   margin: 0 auto;
   background: url("../img/browser.png") center no-repeat; }
+
+.form-section {
+  background-color: #323969 !important; }
+
+.form-wrap {
+  width: 1140px;
+  margin: 0 auto; }
+
+.inputs {
+  width: 260px;
+  padding: 15px 30px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-family: "exoRegular", sans-serif;
+  background-color: #464c77;
+  -moz-placeholder-color: #ffffff;
+  -ms-input-placeholder-color: #ffffff; }
+  .inputs ::-webkit-input-placeholder {
+    color: #ffffff; }
+  .inputs ::-moz-placeholder {
+    color: #ffffff; }
