@@ -826,6 +826,8 @@ body {
     font-size: 14px;
     color: #282828;
     line-height: 1.8; }
+  .footer-col__link {
+    color: #282828; }
   .footer-col__subscribe {
     width: 265px;
     font-size: 0; }
