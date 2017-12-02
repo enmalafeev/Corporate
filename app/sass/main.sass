@@ -102,7 +102,6 @@ body
 	width: 750px
 	height: 380px
 	margin: auto
-	
 		 
 
 // END HEADER
@@ -110,7 +109,7 @@ body
 // BUTTONS
 .btn
 	display: inline-block
-	min-width: 190px
+	width: 190px
 	font-size: 16px
 	padding: 15px 50px 
 	-webkit-border-radius: 3px 
@@ -124,6 +123,8 @@ body
 	&:hover
 		background-color: darken($pink, 10%)  
 
+.header--btn
+	width: 205px
 
 // END BUTTONS
 
@@ -436,8 +437,132 @@ body
 
 // END SEVEN
 
-
 // END SECTIONS
 
+//FOOTER
+.footer
 
+
+.footer-wrap
+	padding-top: 95px
+	padding-bottom: 100px
+	width: 960px
+	margin-top: 0
+	margin-bottom: 0
+	margin-left: 150px  
+	display: flex
+	-webkit-flex-direction: row 
+	-ms-flex-direction: row 
+	flex-direction: row 
+	-webkit-flex-wrap: nowrap 
+	-ms-flex-wrap: nowrap 
+	flex-wrap: nowrap
+	-webkit-justify-content: space-between 
+	 justify-content: space-between  
+	
+.footer-col
+	width: 25%
+			
+				
+	&:nth-child(2)
+		padding-left: 65px
+
+	&:nth-child(4)
+		width: 265px
+	
+
+	&__title
+		font-size: 26px
+		font-weight: 200
+		padding-bottom: 25px
+		position: relative
+				
+	&__info
+		font-size: 14px
+		color: #282828
+		line-height: 1.8  
+		
+	&__list
+		font-size: 14px
+		color: #282828
+		line-height: 1.8
+		
+	&__subscribe
+		width: 265px
+		font-size: 0 
+
+.ex
+	&:after
+		content: ''
+		position: absolute
+		width: 50px
+		height: 50px
+		top: -8px
+		right: 115px
+		background: url('../img/ex.png') no-repeat
+			
+	
+.footer-email
+	display: inline-block
+	width: 215px
+	margin: 0
+	background-color: #f6f6f6
+	font-size: 14px
+	vertical-align: middle
+	
+	
+.footer-btn
+	display: inline-block
+	width: 50px
+	height: 50px
+	padding: 0
+	margin: 0
+	font-size: 14px
+	vertical-align: middle
+	position: relative
+	
+	&:after
+		content: ''
+		position: absolute
+		width: 28px
+		height: 28px
+		top: 13px
+		left: 13px
+		background: url(../img/10.png) no-repeat 
+		
+
+.social
+	width: 180px
+	height: 22px
+	display: inline-block
+	margin-top: 20px	
+
+	&__img
+		display: inline-block
+		width: 20px
+		height: 20px
+		background: url(../img/social.png)
+		margin-right: 20px
+		
+		&:nth-child(1)
+			background-position: 0 0
+			&:hover
+				background-color: $dribbble  
+		
+		&:nth-child(2)
+			background-position: 108px 0
+			&:hover
+				background-color: $fb 
+			
+		&:nth-child(3)
+			background-position: 217px 0
+			&:hover
+				background-color: $google   
+
+		&:nth-child(4)
+			background-position: 173px 0
+			&:hover
+				background-color: $twitter 
+
+// END FOOTER
 
