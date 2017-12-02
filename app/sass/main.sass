@@ -163,6 +163,10 @@ body
 	
 	&__par
 		line-height: 1.6
+		
+	&__info
+		color: $light-grey
+		padding-bottom: 80px
 			
 	
 .section-left
@@ -372,36 +376,62 @@ body
 // END SIX
 
 // SEVEN
+.form
+	position: relative
+	padding-top: 65px
+	padding-bottom: 50px
+
 .form-section
 	background-color: $purple !important
 
 .form-wrap
 	width: 1140px
 	margin: 0 auto
+	padding-top: 100px
 	
 .inputs
 	width: 260px
 	padding: 15px 30px
 	-webkit-border-radius: 3px 
 	border-radius: 3px 
-	color: $main
+	color: $light-grey
+	margin-right: 25px
 	
 	font-family: "exoRegular", sans-serif 
 	background-color: #464c77  
 	
 	::-webkit-input-placeholder
-		color: $main
+		color: $light-grey
 		
 	::-moz-placeholder 
-		color: $main
+		color: $light-grey
 		
 	:-moz-placeholder
-		 color: $main
+		 color: $light-grey
 		 
 	:-ms-input-placeholder
-		color: $main
+		color: $light-grey
 
+.submit
+	display: inline-block
+	width: 260px
 
+.trial
+	color: $light-grey
+	position: absolute
+	top: 0
+	right: 35px
+	
+	&:after
+		content: ''
+		display: inline-block
+		position: absolute
+		top: 0
+		left: -30px
+		width: 55px
+		height: 40px
+		background: url(../img/arrow.png) center no-repeat
+	
 
 
 // END SEVEN
